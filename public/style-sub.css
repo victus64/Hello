@@ -7,3 +7,6 @@ p {
 body {
   background-color: #ffeeee;
 }
+* {
+  box-sizing: border-box;
+}

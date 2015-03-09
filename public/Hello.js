@@ -1,8 +1,6 @@
-﻿var counter;
+﻿var middlware = require('../middlware/counters');
 
 function HelloWorld()
 {
-  if(!counter) counter=0;
-  counter++;
-  document.writeln("Привет, Мир из скрипта! "+counter);
+  document.writeln("Привет, Мир из скрипта! "+ middlware.counter());
 }

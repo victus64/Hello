@@ -1,0 +1,18 @@
+﻿{
+  "name": "login",
+  "description": "login form",
+  "dependencies": {
+    "bmcmahen/transit": "*"
+  },
+  "development": {},
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "login.css"
+  ],
+  "templates": [
+    "template.html"
+  ]
+}
