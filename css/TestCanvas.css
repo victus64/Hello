@@ -1,0 +1,18 @@
+﻿h1 {
+  color: green;
+}
+p {
+  color: darkred; font-weight: bold;
+}
+body {
+  background-color: #eeeeff;
+}
+* {
+  box-sizing: border-box;
+}
+#canvas-1 {
+    border: 1px solid #ccc;
+}
+#eratosfen {
+    border: 2px solid #ccc;
+}

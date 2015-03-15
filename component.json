@@ -1,6 +1,0 @@
-{
-  "name": "Hello",
-  "description": "My first component",
-  "paths": ["lib"],
-  "local": ["boot"]
-}
