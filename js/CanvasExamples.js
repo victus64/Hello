@@ -9,7 +9,8 @@ function startCanvas() {
 
     // Проверяем понимает ли браузер canvas
     if (canvas.getContext) {
-        EratosfenCanvas();
+        Eratosfen.run1();
+        //EratosfenCanvas();
         var ctx = canvas.getContext('2d'); // Получаем 2D контекст
         // Ниже выполняем рисование
         // Закрашиваем весь canvas

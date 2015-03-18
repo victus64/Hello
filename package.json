@@ -1,6 +1,10 @@
 {
-  "name": "node-demo-app",
+  "name": "Hello",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/victus64/Hello.git"
+  },  
   "scripts": {
     "start": "node server.js"
   },
