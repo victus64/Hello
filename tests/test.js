@@ -52,7 +52,7 @@ describe('GET /hello', function () {
 describe('GET /tests/test-rus.html', function () {
   it('should contain text "Привет, Мир!"', function (done) {
      request(server)
-       .get('/test-rus.html')
+       .get('/tests/test.html')
        .expect(/Привет, Мир!/, done)
   })
 })
